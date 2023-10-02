@@ -1,0 +1,35 @@
+
+        h1 {
+            color:blue;
+            border:2px solid palegreen;
+        }
+        body {
+            background-color: pink;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+        }
+        h2 {
+            color:darkcyan;
+            border:2px solid palegreen;
+        }
+        p {
+            color:hotpink;
+        }
+        a {
+            color:deeppink;
+        }
+        
+        .other-one {color: blueviolet;}
+
+        div {
+            background-color: aliceblue;
+            border:5px dotted blue;
+            padding: 40px;
+            display: flex;
+        
+        h1 {
+            flex: ;
+        }
+
+        .hero {
+            background-image: url('jimmy-chan.jpg');
+        }
