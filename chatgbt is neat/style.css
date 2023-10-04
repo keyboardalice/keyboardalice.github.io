@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&family=Rubik+Puddles&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background texture to the body */
+body {
+    background: url('background-texture.jpg') repeat;
+    font-family: Azeret, monospace;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+/* Style the header */
+header {
+    background: rgba(0, 0, 0, 8);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the hero section */
+header {
+    /* Set your hero image as the background here */
+    background: url('rainbow-stars.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 5;
+    height: 50px; /* Adjust the height as needed */
+}
+
+/* Style the content section */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+    background: rgba(168, 136, 250, 0.9);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.right-column p {
+    padding-top: 2pc;
+
+}
+.right-column h2 {
+    font-size: 24px;
+    padding-top: 5pc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff00e1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
