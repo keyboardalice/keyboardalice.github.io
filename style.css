@@ -25,10 +25,8 @@
             border:5px dotted blue;
             padding: 40px;
             display: flex;
-        
-        h1 {
-            flex: ;
         }
+    
 
         .hero {
             background-image: url('jimmy-chan.jpg');

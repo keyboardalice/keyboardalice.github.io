@@ -1,8 +1,15 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "name": "keyboardalice.github.io",
+            "path": "."
+        },
+        {
+            "name": "clock-main",
+            "path": "../../../Downloads/clock-main"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "clock-main"
+    }
 }
