@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
     
     body {
         font-family: 'Patrick Hand SC', cursive;
@@ -10,23 +18,61 @@
        background-color: #EFE864;
        height: 100vh;
        width: 100vw;
-       margin-top: 30px;
+       margin-top: 20px;
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       ;
 
+   }
+   nav {
+    display:flex;
+   }
+         nav div {
+            flex:1;
+         }
+
+   footer {
+        background-color: #EFE864;
+        height: 40vh;
+        width: 100vw;
    }
 
     .logotype {
             margin-bottom: 0;
+            margin-top: 5px;
             font-family: 'Darumadrop One', sans-serif;
             font-size: 60px;
             font-weight: lighter;
             color: #9EC921;
     }
 
+    .title1 {
+        margin: 50px;
+        font-size: 40px;
+        color: white;
+    }
+
+
+     .title2 {
+        margin: 50px;
+        font-size: 40px;
+        color: black;
+     }
+
+    .bodytext1 {
+        margin: 50px;
+        font-family: 'Patrick Hand';
+        font-size: 18px;
+        color: white;
+    }
+
+    .bodytext2 {
+         margin: 50px;
+         font-family: 'Patrick Hand';
+         font-size: 18px;
+         color: black;
+     }
    h2 {
     margin-top: 0;
     font-size: 28px;
@@ -34,21 +80,46 @@
    }
 
    section {
-       height: 100vh;
-       width: 100vw;
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
    }
 
-   .pink {
-       background-color: #FF9E78
+   .flex {
+    display:flex;
+   }
+  .flex div {
+        flex:1;
+  }
+   .pink {     
+            margin-top: -20%;
+            background-color: #FF9E78;
+            /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
    }
 
     .green {
-        background-color: #9EC921
+            background-color: #9EC921;
      }
 
     .purple {
-        background-color: #8379BD
+            background-color: #8379BD;
+            height:100vh;
+            width: 100v;
     }
+
+    .yellow {
+        color: #8379BD;
+    }
+
+    /* .content-right {
+        
+    }
+
+    .content-left {
+        
+     } */
 
    nav {
        display: flex;
@@ -60,3 +131,7 @@
    nav div {
        flex: 1;
    }
+
+   /* footer div {
+        flex: 1;
+   } */
