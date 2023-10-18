@@ -11,17 +11,19 @@ img {
 }
 
 .staticsword {
-    width: 99px;
+    width: 100px;
     height: 375px;
     border: 1px solid #8379BD;
     padding: 10px;
+    object-fit: contain;
 }
 
 .staticsword img {
-    width: 99px;
-    height: 375px;
-    /* object-fit:fill; */
-    position: absolute;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    /* object-fit:contain; */
 }
     
     body {
@@ -43,6 +45,7 @@ img {
    }
    nav {
     display:flex;
+       
    }
          nav div {
             flex:1;
@@ -68,6 +71,7 @@ img {
         margin: 50px;
         font-size: 40px;
         color: white;
+        text-align: center;
     }
 
 
@@ -75,6 +79,7 @@ img {
         margin: 50px;
         font-size: 40px;
         color: black;
+        text-align: center;
      }
 
     .bodytext1 {
@@ -89,11 +94,13 @@ img {
          font-family: 'Patrick Hand';
          font-size: 18px;
          color: black;
+         
      }
    h2 {
-    margin-top: 0;
+    margin: 0;
     font-size: 28px;
     font-weight: lighter;
+
    }
 
    section {
@@ -110,8 +117,8 @@ img {
   .flex div {
         flex:1;
   }
-   .pink {     
-            background-color: #FF9E78;
+   .pink {        
+        background-color: #FF9E78;
             /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
    }
 
@@ -129,6 +136,27 @@ img {
         color: #8379BD;
     }
 
+    .content-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sword-right {
+        top: 0;
+        padding: 150px;
+        height: 100%;
+        width: auto;
+    }
+
    nav {
        display: flex;
        width: 70%;
@@ -144,7 +172,11 @@ img {
         flex: 1;
    }
 
-   .footertext {
+   .footer {
     font-size: 25px;
     color: #9EC921;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
