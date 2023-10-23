@@ -11,21 +11,22 @@ img {
 }
 
 .staticsword {
-    width: 100px;
-    height: 375px;
+    height: 90%;
+    width: auto;
+    text-align: center;
     border: 1px solid #8379BD;
-    padding: 10px;
-    object-fit: contain;
+    padding: 20px;
 }
 
 .staticsword img {
-    width: 100%;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    /* object-fit:contain; */
+    width: auto;
+    height: 100%;
 }
-    
+
+.staticsword img:hover {
+    transform:scale(1.2) rotate(-10deg); 
+}
+
     body {
         font-family: 'Patrick Hand SC', cursive;
        background-color: #EFE864;
@@ -36,10 +37,8 @@ img {
        background-color: #EFE864;
        height: 100vh;
        width: 100vw;
-       margin-top: 20px;
        display: flex;
        flex-direction: column;
-       justify-content: center;
        align-items: center;
 
    }
@@ -48,6 +47,7 @@ img {
        
    }
          nav div {
+            margin-top: 60px;
             flex:1;
          }
 
@@ -157,16 +157,12 @@ img {
         width: auto;
     }
 
-   nav {
-       display: flex;
-       width: 70%;
-       margin: auto;
-       margin-top: 40px;
-   }
-
-   /* nav div {
-       flex: 1;
-   } */
+    .sword-left {
+        top: 0;
+        padding: 150px;
+        height: 100%;
+        width: auto;
+         }
    
    footer div {
         flex: 1;
