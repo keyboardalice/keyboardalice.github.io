@@ -52,16 +52,9 @@ img {
             flex:1;
          }
 
-   footer {
-        display: flex;
-        background-color: #EFE864;
-        height: 40vh;
-        width: 100vw;
-   }
-
     .logotype {
             margin-bottom: 0;
-            margin-top: 5px;
+            margin-top: 50px;
             font-family: 'Darumadrop One', sans-serif;
             font-size: 60px;
             font-weight: lighter;
@@ -69,29 +62,31 @@ img {
     }
 
     .title1 {
-        font-size: 40px;
+        font-size: 50px;
         color: white;
         text-align: center;
     }
 
 
      .title2 {
-        font-size: 40px;
+        font-size: 50px;
         color: black;
         text-align: center;
      }
 
     .bodytext1 {
-        margin: 50px;
+        margin: 55px;
+        margin-right: 80px;
         font-family: 'Patrick Hand';
-        font-size: 18px;
+        font-size: 20px;
         color: white;
     }
 
     .bodytext2 {
-         margin: 50px;
+         margin: 55px;
+         margin-right: 80px;
          font-family: 'Patrick Hand';
-         font-size: 18px;
+         font-size: 20px;
          color: black;
          
      }
@@ -118,7 +113,7 @@ img {
   }
    .one {        
         background-color: #FF9E78;
-            /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+        clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
    }
 
    /* .two {
@@ -126,7 +121,8 @@ img {
    } */
 
     .three {
-            background-color: #9EC921;
+        background-color: #9EC921;
+        clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
      }
 
      /* .four {
@@ -135,8 +131,7 @@ img {
 
     .five {
             background-color: #8379BD;
-            height:100vh;
-            width: 100v;
+            clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
     }
 
     .content-left {
@@ -154,8 +149,9 @@ img {
     }
 
     .sword-right {
-        padding: 20px;
+        padding: 100px 200px 100px 50px;
         position: relative;
+        top: -100px;
         right: 20px;
         height: 100%;
         width: auto;
@@ -163,8 +159,9 @@ img {
     }
 
     .sword-left {
-        padding: 20px;
+        padding: 100px 200px 100px 50px;
         position: relative;
+        top: -100px;
         right: -20px;
         height: 100%;
         width: auto;
@@ -182,9 +179,9 @@ img {
 
    #finnhead {
     display: flex;
-    padding: 100px;
+    padding: 200px 0px 0px 0px;
     width: 100%;
-    height: 200px;
+    height: 300px;
     position: relative;
     justify-content: center;
     bottom: 0;
@@ -192,9 +189,6 @@ img {
 
    #finnhead:hover {
        opacity: 0.8;
-   }
-
-   #finnhead:img:hover {
    }
 
    #finnhead:active {
