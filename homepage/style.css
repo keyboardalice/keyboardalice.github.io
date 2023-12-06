@@ -1,33 +1,167 @@
+body {
+    background-color: #f8edd7;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
 
-        h1 {
-            color:blue;
-            border:2px solid palegreen;
-        }
-        body {
-            background-color: pink;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
-        }
-        h2 {
-            color:darkcyan;
-            border:2px solid palegreen;
-        }
-        p {
-            color:hotpink;
-        }
-        a {
-            color:deeppink;
-        }
-        
-        .other-one {color: blueviolet;}
+header {
+    font-family: 'Playfair Display', serif;
+    height: 200px;
+    font-size: 40px;
+    background-color: #f8edd7;
+    color: #424141;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
 
-        div {
-            background-color: aliceblue;
-            border:5px dotted blue;
-            padding: 40px;
-            display: flex;
-        }
-    
+}
 
-        .hero {
-            background-image: url('jimmy-chan.jpg');
-        }
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8edd7;
+    border-top: 1px solid #424141;
+}
+
+nav a {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #f8edd7;
+    background-color: #424141;
+}
+
+.main-container {
+    display: flex;
+    direction: row;
+}
+
+h2, h3 {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 20px;
+    border: 1px solid #424141;
+}
+
+h2 {
+    position: absolute;
+    padding-left: 80px;
+    padding-right: 40px;
+     border-left: none;
+    border-radius: 0px 100px 100px 0px;
+}
+
+h3 {
+    position: absolute;
+    top: 600px;
+    right: 0;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-radius: 100px 0px 0px 100px;
+    border-right: none;
+}
+
+.item-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    justify-content: center;
+    margin-top: 120px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    max-width: 35ch;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    padding: 20px;
+}
+
+.centered-button {
+    padding: 8px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #424141;
+    color: #f8edd7;
+    border: 1px solid #424141;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centered-button:hover {
+    background-color: #f8edd7;
+    color: #424141;
+}
+
+.column img {
+    margin-top: 25px;
+    border: 1px solid #424141;
+}
+
+.socials-container {
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials-button {
+    padding: 16px;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #424141;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.socials-button:hover {
+    background-color: #424141;
+    color: #f8edd7;
+}
+
+.socials-button a {
+    color: #424141;
+}
+
+.socials-button a:hover {
+    color: #f8edd7;
+}
